@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    width: 98%;
+    background-color: white;
+}
+.box-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 900px;
+    background-color: dodgerblue;
+    list-style: none;
+    padding: 80px;
+}
+.box-5{
+    width: 100%;
+    background-color:dodgerblue ;
+}
+.b-1{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 300px;
+    width: 550px;
+    margin-left: 50px;
+    
+    
+}
+.box-2 button{
+    height: 40px;
+    width: 170px;
+    border: none;
+}
+@media (max-width:768px){
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120vh;
+        width: 98%;
+        background-color: white;
+    }
+    .box-4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+        width: 680px;
+        background-color: dodgerblue;
+        list-style: none;
+        padding: 30px;
+    }
+    .box-5{
+        width: 300px;
+    }
+}
+
